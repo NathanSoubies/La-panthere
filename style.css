@@ -60,8 +60,7 @@ body {
     right : 0;
     }
     .texture-paper::before {
-    background : url("img/texture-paper.webp");
-    background-size : 280px 280px;
+    background : url("img/ap-consulting-d.webp");
     }
     .b-parallax {
     background-attachment : fixed;
@@ -230,6 +229,10 @@ body {
     .nav-invert .navbar-header, .nav-invert .navbar-brand {
     float : right;
     position : relative;
+    }
+
+    .fa-star-of-life {
+        font-size: 0.8rem;
     }
     @media (min-width: 768px) {
     .site-navigation {
@@ -495,13 +498,16 @@ body {
     background : black !important ;
     text-transform : uppercase;
     padding : 12px 28px 12px 28px;
-    font-size : 16px;
+    font-size : 10px;
     font-weight : 700;
     }
     .social {
     color : white !important ;
     max-width : 500px;
     margin : auto auto auto auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
     }
     .social a {
     color : white !important ;
@@ -528,6 +534,11 @@ body {
     h4 {
     color : #333333 !important ;
     }
+
+    
+    .social-icon {
+    width: 23%;
+}
     .icons {
     margin-bottom : 14px;
     margin-top : 24px;
@@ -577,7 +588,8 @@ body {
     background-color : black !important ;
     }
     .tc-white {
-    color : white !important ;
+    color : #008080 !important ;
+    font-weight: bold;
     }
     .btn-atomic-tangerine {
     background : #F3976C;
